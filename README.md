@@ -4,6 +4,8 @@ This is a collection of various git-related CLI commands. To install, run
 
     > npm install -g git-lib-cli
 
+For more information on each CLI package, please view said package's README
+
 ## Included Packages
 
 ### [Push](/node_modules/push-cli/README.md)
@@ -23,3 +25,11 @@ A command line tool that allows you to commit your local changes
 A command line tool that allows you to checkout to your other branches
 
     > checkout
+
+## Versions
+
+**1.0.2**
+* Fixed package.json bug
+
+**1.0.0**
+* First
