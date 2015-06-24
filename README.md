@@ -31,6 +31,9 @@ A command line tool that allows you to commit your local changes
     > commit
 
 ## Versions
+**1.0.4**
+* Updated package.json
+
 **1.0.3**
 * Updated README
 
