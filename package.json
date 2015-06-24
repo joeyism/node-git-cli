@@ -12,9 +12,9 @@
     "url": "git+ssh://git@github.com/joeyism/node-git-cli.git"
   },
   "bin": {
-    "checkout": "node_modules/checkout-cli/index.js",
-    "commit": "node_modules/commit-cli/index.js",
-    "push": "node_modules/push-cli/index.js"
+    "checkout": "lib/checkout-cli/index.js",
+    "commit": "lib/commit-cli/index.js",
+    "push": "lib/push-cli/index.js"
   },
   "keywords": [
     "git",

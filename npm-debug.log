@@ -22,132 +22,128 @@
 16 verbose addNameRange registry:https://registry.npmjs.org/git-lib-cli not in flight; fetching
 17 verbose request uri https://registry.npmjs.org/git-lib-cli
 18 verbose request no auth needed
-19 info attempt registry request try #1 at 1:41:56 PM
+19 info attempt registry request try #1 at 4:50:09 PM
 20 verbose request using bearer token for auth
-21 verbose request id 916ad9751bbcfef3
-22 verbose etag "4Q0L6ITYG2XYR339079OCWJCV"
-23 http request GET https://registry.npmjs.org/git-lib-cli
-24 http 304 https://registry.npmjs.org/git-lib-cli
-25 silly get cb [ 304,
-25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-25 silly get     etag: '"4Q0L6ITYG2XYR339079OCWJCV"',
-25 silly get     'cache-control': 'max-age=60',
-25 silly get     'accept-ranges': 'bytes',
-25 silly get     date: 'Wed, 24 Jun 2015 17:41:57 GMT',
-25 silly get     via: '1.1 varnish',
-25 silly get     connection: 'keep-alive',
-25 silly get     'x-served-by': 'cache-dfw1835-DFW',
-25 silly get     'x-cache': 'MISS',
-25 silly get     'x-cache-hits': '0',
-25 silly get     'x-timer': 'S1435167717.467286,VS0,VE65' } ]
-26 verbose etag https://registry.npmjs.org/git-lib-cli from cache
-27 verbose get saving git-lib-cli to /home/dante/.npm/registry.npmjs.org/git-lib-cli/.cache.json
-28 silly addNameRange number 2 { name: 'git-lib-cli', range: '*', hasData: true }
-29 silly addNameRange versions [ 'git-lib-cli',
-29 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4' ] ]
-30 silly addNamed git-lib-cli@1.0.4
-31 verbose addNamed "1.0.4" is a plain semver version for git-lib-cli
-32 silly cache afterAdd git-lib-cli@1.0.4
-33 verbose afterAdd /home/dante/.npm/git-lib-cli/1.0.4/package/package.json not in flight; writing
-34 verbose afterAdd /home/dante/.npm/git-lib-cli/1.0.4/package/package.json written
-35 silly install resolved [ { name: 'git-lib-cli',
-35 silly install resolved     version: '1.0.4',
-35 silly install resolved     description: 'A collection of various git commands cli',
-35 silly install resolved     main: 'index.js',
-35 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
-35 silly install resolved     repository:
-35 silly install resolved      { type: 'git',
-35 silly install resolved        url: 'git+ssh://git@github.com/joeyism/node-git-cli.git' },
-35 silly install resolved     bin:
-35 silly install resolved      { checkout: 'node_modules/checkout-cli/index.js',
-35 silly install resolved        commit: 'node_modules/commit-cli/index.js',
-35 silly install resolved        push: 'node_modules/push-cli/index.js' },
-35 silly install resolved     keywords: [ 'git', 'checkout', 'commit', 'push', 'cli' ],
-35 silly install resolved     author:
-35 silly install resolved      { name: 'Joey Sham',
-35 silly install resolved        email: 'sham.joey@gmail.com',
-35 silly install resolved        url: 'http://www.joeyism.com' },
-35 silly install resolved     license: 'ISC',
-35 silly install resolved     bugs: { url: 'https://github.com/joeyism/node-git-cli/issues' },
-35 silly install resolved     homepage: 'https://github.com/joeyism/node-git-cli#readme',
-35 silly install resolved     readme: '# git-CLI\n\nThis is a collection of various git-related CLI commands. To install, run\n\n    > npm install -g git-lib-cli\n\nFor more information on each CLI package, please view said package\'s README by clicking on the link of the package below.\n\n## Included Packages\n\n### [Checkout](/node_modules/checkout-cli/README.md)\n\nA command line tool that allows you to checkout to your other branches\n\n    > checkout\n\nAnd a prompt will appear to checkout your local branches. To checkout your remote branches as well, please run\n\n    > checkout all\n\n### [Push](/node_modules/push-cli/README.md)\n\nA command line tool that allows you to push to your remote git\n\n    > push\n\n### [Commit](/node_modules/commit-cli/README.md)\n\nA command line tool that allows you to commit your local changes\n\n    > commit\n\n## Versions\n**1.0.3**\n* Updated README\n\n**1.0.2**\n* Fixed package.json bug\n\n**1.0.0**\n* First\n',
-35 silly install resolved     readmeFilename: 'README.md',
-35 silly install resolved     gitHead: '1f9a4e9c750e23bb201432763c06454db0b20263',
-35 silly install resolved     _id: 'git-lib-cli@1.0.4',
-35 silly install resolved     _shasum: 'f84dac82adedb74bf984ff7f96deeffa6ef5ec04',
-35 silly install resolved     _from: 'git-lib-cli@*' } ]
-36 info install git-lib-cli@1.0.4 into /usr/local/lib
-37 info installOne git-lib-cli@1.0.4
-38 verbose installOne of git-lib-cli to /usr/local/lib not in flight; installing
-39 verbose lock using /home/dante/.npm/_locks/git-lib-cli-55f552c678549019.lock for /usr/local/lib/node_modules/git-lib-cli
-40 silly install write writing git-lib-cli 1.0.4 to /usr/local/lib/node_modules/git-lib-cli
-41 verbose unbuild lib/node_modules/git-lib-cli
-42 silly gentlyRm /usr/local/lib/node_modules/git-lib-cli is being purged from base /usr/local
-43 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/git-lib-cli
-44 verbose tar unpack /home/dante/.npm/git-lib-cli/1.0.4/package.tgz
-45 verbose tar unpacking to /usr/local/lib/node_modules/git-lib-cli
-46 silly gentlyRm /usr/local/lib/node_modules/git-lib-cli is being purged
-47 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/git-lib-cli
-48 silly gunzTarPerm modes [ '755', '644' ]
-49 silly gunzTarPerm extractEntry package.json
-50 silly gunzTarPerm extractEntry README.md
-51 verbose write writing to /usr/local/lib/node_modules/git-lib-cli/package.json
-52 info preinstall git-lib-cli@1.0.4
-53 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/git-lib-cli/package.json
-54 verbose readDependencies loading dependencies from /usr/local/lib/node_modules/git-lib-cli/package.json
-55 silly install resolved []
-56 verbose about to build /usr/local/lib/node_modules/git-lib-cli
-57 info build /usr/local/lib/node_modules/git-lib-cli
-58 info linkStuff git-lib-cli@1.0.4
-59 silly linkStuff git-lib-cli@1.0.4 has /usr/local/lib/node_modules as its parent node_modules
-60 silly linkStuff git-lib-cli@1.0.4 is part of a global install
-61 silly linkStuff git-lib-cli@1.0.4 is installed into a global node_modules
-62 silly linkStuff git-lib-cli@1.0.4 is installed into the top-level global node_modules
-63 verbose linkBins git-lib-cli@1.0.4
-64 verbose link bins [ { checkout: 'node_modules/checkout-cli/index.js',
-64 verbose link bins     commit: 'node_modules/commit-cli/index.js',
-64 verbose link bins     push: 'node_modules/push-cli/index.js' },
-64 verbose link bins   '/usr/local/bin',
-64 verbose link bins   true ]
-65 verbose linkMans git-lib-cli@1.0.4
-66 verbose rebuildBundles git-lib-cli@1.0.4
-67 verbose unlock done using /home/dante/.npm/_locks/git-lib-cli-55f552c678549019.lock for /usr/local/lib/node_modules/git-lib-cli
-68 verbose stack Error: ENOENT, chmod '/usr/local/lib/node_modules/git-lib-cli/node_modules/checkout-cli/index.js'
-68 verbose stack     at Error (native)
-69 verbose cwd /home/dante/Documents/Programming/nodejs/git-cli
-70 error Linux 3.13.0-37-generic
-71 error argv "node" "/usr/local/bin/npm" "install" "-g" "git-lib-cli"
-72 error node v0.12.4
-73 error npm  v2.11.0
-74 error path /usr/local/lib/node_modules/git-lib-cli/node_modules/checkout-cli/index.js
-75 error code ENOENT
-76 error errno -2
-77 error enoent ENOENT, chmod '/usr/local/lib/node_modules/git-lib-cli/node_modules/checkout-cli/index.js'
-77 error enoent This is most likely not a problem with npm itself
-77 error enoent and is related to npm not being able to find a file.
-78 verbose exit [ -2, true ]
-79 verbose unbuild lib/node_modules/git-lib-cli
-80 info preuninstall git-lib-cli@1.0.4
-81 info uninstall git-lib-cli@1.0.4
-82 verbose unbuild rmStuff git-lib-cli@1.0.4 from /usr/local/lib/node_modules
-83 silly gentlyRm /usr/local/bin/checkout is being gently removed
-84 silly gentlyRm verifying /usr/local is an npm working directory
-85 silly gentlyRm /usr/local/bin/commit is being gently removed
-86 silly gentlyRm verifying /usr/local is an npm working directory
-87 silly gentlyRm /usr/local/bin/push is being gently removed
-88 silly gentlyRm verifying /usr/local is an npm working directory
-89 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
-90 silly gentlyRm deletion target /usr/local/bin/checkout is under /usr/local
-91 verbose gentlyRm vacuuming from /usr/local/bin/checkout up to /usr/local
-92 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
-93 silly gentlyRm deletion target /usr/local/bin/commit is under /usr/local
-94 verbose gentlyRm vacuuming from /usr/local/bin/commit up to /usr/local
-95 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
-96 silly gentlyRm deletion target /usr/local/bin/push is under /usr/local
-97 verbose gentlyRm vacuuming from /usr/local/bin/push up to /usr/local
-98 silly vacuum-fs removing /usr/local/bin/checkout
-99 silly vacuum-fs removing /usr/local/bin/commit
-100 silly vacuum-fs removing /usr/local/bin/push
-101 error error rolling back Error: EACCES, unlink '/usr/local/bin/checkout'
-101 error error rolling back     at Error (native)
-101 error error rolling back  { [Error: EACCES, unlink '/usr/local/bin/checkout'] errno: -13, code: 'EACCES', path: '/usr/local/bin/checkout' }
+21 verbose request id 1d895dc7351c9df7
+22 http request GET https://registry.npmjs.org/git-lib-cli
+23 http 200 https://registry.npmjs.org/git-lib-cli
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"EJQIFKNUZL2VAWUPSHJW0RA28"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     'content-length': '9005',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Wed, 24 Jun 2015 20:50:10 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-ord1729-ORD',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1435179009.937178,VS0,VE76',
+24 silly get     vary: 'Accept' } ]
+25 verbose get saving git-lib-cli to /home/dante/.npm/registry.npmjs.org/git-lib-cli/.cache.json
+26 silly addNameRange number 2 { name: 'git-lib-cli', range: '*', hasData: true }
+27 silly addNameRange versions [ 'git-lib-cli',
+27 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+28 silly addNamed git-lib-cli@1.0.5
+29 verbose addNamed "1.0.5" is a plain semver version for git-lib-cli
+30 silly cache afterAdd git-lib-cli@1.0.5
+31 verbose afterAdd /home/dante/.npm/git-lib-cli/1.0.5/package/package.json not in flight; writing
+32 verbose afterAdd /home/dante/.npm/git-lib-cli/1.0.5/package/package.json written
+33 silly install resolved [ { name: 'git-lib-cli',
+33 silly install resolved     version: '1.0.5',
+33 silly install resolved     description: 'A collection of various git commands cli',
+33 silly install resolved     main: 'index.js',
+33 silly install resolved     scripts:
+33 silly install resolved      { test: 'echo "Error: no test specified" && exit 1',
+33 silly install resolved        preinstall: 'npm install checkout-cli commit-cli push-cli' },
+33 silly install resolved     repository:
+33 silly install resolved      { type: 'git',
+33 silly install resolved        url: 'git+ssh://git@github.com/joeyism/node-git-cli.git' },
+33 silly install resolved     bin:
+33 silly install resolved      { checkout: 'node_modules/checkout-cli/index.js',
+33 silly install resolved        commit: 'node_modules/commit-cli/index.js',
+33 silly install resolved        push: 'node_modules/push-cli/index.js' },
+33 silly install resolved     keywords: [ 'git', 'checkout', 'commit', 'push', 'cli' ],
+33 silly install resolved     author:
+33 silly install resolved      { name: 'Joey Sham',
+33 silly install resolved        email: 'sham.joey@gmail.com',
+33 silly install resolved        url: 'http://www.joeyism.com' },
+33 silly install resolved     license: 'ISC',
+33 silly install resolved     bugs: { url: 'https://github.com/joeyism/node-git-cli/issues' },
+33 silly install resolved     homepage: 'https://github.com/joeyism/node-git-cli#readme',
+33 silly install resolved     readme: '# git-CLI\n\nThis is a collection of various git-related CLI commands. To install, run\n\n    > npm install -g git-lib-cli\n\nFor more information on each CLI package, please view said package\'s README by clicking on the link of the package below.\n\n## Included Packages\n\n### [Checkout](/node_modules/checkout-cli/README.md)\n\nA command line tool that allows you to checkout to your other branches\n\n    > checkout\n\nAnd a prompt will appear to checkout your local branches. To checkout your remote branches as well, please run\n\n    > checkout all\n\n### [Push](/node_modules/push-cli/README.md)\n\nA command line tool that allows you to push to your remote git\n\n    > push\n\n### [Commit](/node_modules/commit-cli/README.md)\n\nA command line tool that allows you to commit your local changes\n\n    > commit\n\n## Versions\n**1.0.4**\n* Updated package.json\n\n**1.0.3**\n* Updated README\n\n**1.0.2**\n* Fixed package.json bug\n\n**1.0.0**\n* First\n',
+33 silly install resolved     readmeFilename: 'README.md',
+33 silly install resolved     gitHead: 'ec2a8d91e26b65ee8b1dfacb490e099b9886b14d',
+33 silly install resolved     _id: 'git-lib-cli@1.0.5',
+33 silly install resolved     _shasum: '79e466796991c5db5501675c026bf9980dbc2f50',
+33 silly install resolved     _from: 'git-lib-cli@*' } ]
+34 info install git-lib-cli@1.0.5 into /usr/local/lib
+35 info installOne git-lib-cli@1.0.5
+36 verbose installOne of git-lib-cli to /usr/local/lib not in flight; installing
+37 verbose lock using /home/dante/.npm/_locks/git-lib-cli-55f552c678549019.lock for /usr/local/lib/node_modules/git-lib-cli
+38 silly install write writing git-lib-cli 1.0.5 to /usr/local/lib/node_modules/git-lib-cli
+39 verbose unbuild lib/node_modules/git-lib-cli
+40 info preuninstall git-lib-cli@1.0.4
+41 info uninstall git-lib-cli@1.0.4
+42 verbose unbuild rmStuff git-lib-cli@1.0.4 from /usr/local/lib/node_modules
+43 silly gentlyRm /usr/local/bin/checkout is being gently removed
+44 silly gentlyRm verifying /usr/local is an npm working directory
+45 silly gentlyRm /usr/local/bin/commit is being gently removed
+46 silly gentlyRm verifying /usr/local is an npm working directory
+47 silly gentlyRm /usr/local/bin/push is being gently removed
+48 silly gentlyRm verifying /usr/local is an npm working directory
+49 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+50 silly gentlyRm deletion target /usr/local/bin/checkout is under /usr/local
+51 verbose gentlyRm vacuuming from /usr/local/bin/checkout up to /usr/local
+52 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+53 silly gentlyRm deletion target /usr/local/bin/commit is under /usr/local
+54 verbose gentlyRm vacuuming from /usr/local/bin/commit up to /usr/local
+55 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+56 silly gentlyRm deletion target /usr/local/bin/push is under /usr/local
+57 verbose gentlyRm vacuuming from /usr/local/bin/push up to /usr/local
+58 silly vacuum-fs removing /usr/local/bin/checkout
+59 silly vacuum-fs removing /usr/local/bin/commit
+60 silly vacuum-fs removing /usr/local/bin/push
+61 verbose unlock done using /home/dante/.npm/_locks/git-lib-cli-55f552c678549019.lock for /usr/local/lib/node_modules/git-lib-cli
+62 verbose stack Error: EACCES, unlink '/usr/local/bin/checkout'
+62 verbose stack     at Error (native)
+63 verbose cwd /home/dante/Documents/Programming/nodejs/git-cli
+64 error Linux 3.13.0-37-generic
+65 error argv "node" "/usr/local/bin/npm" "install" "-g" "git-lib-cli"
+66 error node v0.12.4
+67 error npm  v2.11.0
+68 error path /usr/local/bin/checkout
+69 error code EACCES
+70 error errno -13
+71 error Error: EACCES, unlink '/usr/local/bin/checkout'
+71 error     at Error (native)
+71 error  { [Error: EACCES, unlink '/usr/local/bin/checkout'] errno: -13, code: 'EACCES', path: '/usr/local/bin/checkout' }
+72 error Please try running this command again as root/Administrator.
+73 verbose exit [ -13, true ]
+74 verbose unbuild lib/node_modules/git-lib-cli
+75 info preuninstall git-lib-cli@1.0.4
+76 info uninstall git-lib-cli@1.0.4
+77 verbose unbuild rmStuff git-lib-cli@1.0.4 from /usr/local/lib/node_modules
+78 silly gentlyRm /usr/local/bin/checkout is being gently removed
+79 silly gentlyRm verifying /usr/local is an npm working directory
+80 silly gentlyRm /usr/local/bin/commit is being gently removed
+81 silly gentlyRm verifying /usr/local is an npm working directory
+82 silly gentlyRm /usr/local/bin/push is being gently removed
+83 silly gentlyRm verifying /usr/local is an npm working directory
+84 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+85 silly gentlyRm deletion target /usr/local/bin/checkout is under /usr/local
+86 verbose gentlyRm vacuuming from /usr/local/bin/checkout up to /usr/local
+87 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+88 silly gentlyRm deletion target /usr/local/bin/commit is under /usr/local
+89 verbose gentlyRm vacuuming from /usr/local/bin/commit up to /usr/local
+90 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+91 silly gentlyRm deletion target /usr/local/bin/push is under /usr/local
+92 verbose gentlyRm vacuuming from /usr/local/bin/push up to /usr/local
+93 silly vacuum-fs removing /usr/local/bin/checkout
+94 silly vacuum-fs removing /usr/local/bin/commit
+95 silly vacuum-fs removing /usr/local/bin/push
+96 error error rolling back Error: EACCES, unlink '/usr/local/bin/checkout'
+96 error error rolling back     at Error (native)
+96 error error rolling back  { [Error: EACCES, unlink '/usr/local/bin/checkout'] errno: -13, code: 'EACCES', path: '/usr/local/bin/checkout' }
