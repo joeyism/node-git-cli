@@ -33,6 +33,6 @@
     "checkout-cli": "^1.3.0",
     "commit-cli": "^1.2.5",
     "merge-cli": "^1.0.3",
-    "push-cli": "^2.0.0"
+    "push-cli": "^1.0.0"
   }
 }

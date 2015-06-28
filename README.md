@@ -37,6 +37,9 @@ A command line tool that allows you to merge from a selected branch into your cu
     > merge
 
 ## Versions
+**1.0.10**
+* Fixed package.json bug
+
 **1.0.9**
 * Updated to commit-cli v2.0.0
 * Added merge-cli
