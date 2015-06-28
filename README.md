@@ -18,19 +18,29 @@ And a prompt will appear to checkout your local branches. To checkout your remot
 
     > checkout all
 
-### [Push](/node_modules/push-cli/README.md)
-
-A command line tool that allows you to push to your remote git
-
-    > push
-
 ### [Commit](/node_modules/commit-cli/README.md)
 
 A command line tool that allows you to commit your local changes
 
     > commit
 
+### [Push](/node_modules/push-cli/README.md)
+
+A command line tool that allows you to push to your remote git
+
+    > push
+
+### [Merge](/node_modules/merge-cli/README.md)
+
+A command line tool that allows you to merge from a selected branch into your current one
+
+    > merge
+
 ## Versions
+**1.0.9**
+* Updated to commit-cli v2.0.0
+* Added merge-cli
+
 **1.0.4**
 * Updated package.json
 
