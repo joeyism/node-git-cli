@@ -24,6 +24,10 @@ A command line tool that allows you to commit your local changes
 
     > commit
 
+You can also recommit your last change
+
+    > recommit
+
 ### [Push](/node_modules/push-cli/README.md)
 
 A command line tool that allows you to push to your remote git
@@ -37,6 +41,9 @@ A command line tool that allows you to merge from a selected branch into your cu
     > merge
 
 ## Versions
+**1.1.0**
+* Recommit
+
 **1.0.10**
 * Fixed package.json bug
 
