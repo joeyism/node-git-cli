@@ -1,6 +1,6 @@
 {
   "name": "git-lib-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A collection of various git commands cli",
   "main": "index.js",
   "scripts": {
