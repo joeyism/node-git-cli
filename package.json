@@ -13,6 +13,7 @@
   "bin": {
     "checkout": "node_modules/checkout-cli/index.js",
     "commit": "node_modules/commit-cli/commit.js",
+    "recommit": "node_modules/commit-cli/recommit.js",
     "merge": "node_modules/merge-cli/index.js",
     "push": "node_modules/push-cli/index.js"
   },
