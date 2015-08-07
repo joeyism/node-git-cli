@@ -40,7 +40,16 @@ A command line tool that allows you to merge from a selected branch into your cu
 
     > merge
 
+### [Revert](/nnode_modules/revert-cli/README.md)
+
+A command line tool that allows you to revert/uncommit changes you've made to files back to your last commit
+
+    > revert
+
 ## Versions
+**1.2.0**
+* revert
+
 **1.1.0**
 * Recommit
 
