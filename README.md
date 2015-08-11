@@ -15,7 +15,7 @@ For more information on each CLI package, please view said package's README by c
 * [`Revert`](#revert)
 * [`Branch`](#branch) (includes deletion of branches)
 
-### [Checkout](https://github.com/joeyism/node-checkout-cli/README.md)
+### [Checkout](https://github.com/joeyism/node-checkout-cli/)
 
 A command line tool that allows you to checkout to your other branches
 
@@ -25,7 +25,7 @@ And a prompt will appear to checkout your local branches. To checkout your remot
 
     > checkout all
 
-### [Commit](https://github.com/joeyism/node-commit-cli/README.md)
+### [Commit](https://github.com/joeyism/node-commit-cli/)
 
 A command line tool that allows you to commit your local changes
 
@@ -35,25 +35,25 @@ You can also recommit your last change
 
     > recommit
 
-### [Push](https://github.com/joeyism/node-push-cli/README.md)
+### [Push](https://github.com/joeyism/node-push-cli/)
 
 A command line tool that allows you to push to your remote git
 
     > push
 
-### [Merge](https://github.com/joeyism/node-merge-cli/README.md)
+### [Merge](https://github.com/joeyism/node-merge-cli/)
 
 A command line tool that allows you to merge from a selected branch into your current one
 
     > merge
 
-### [Revert](https://github.com/joeyism/node-revert-cli/README.md)
+### [Revert](https://github.com/joeyism/node-revert-cli/)
 
 A command line tool that allows you to revert/uncommit changes you've made to files back to your last commit
 
     > revert
 
-### [Branch](https://github.com/joeyism/node-branch-cli/README.md)
+### [Branch](https://github.com/joeyism/node-branch-cli/)
 
 A CLI tool that allows you to manipulate local git repository branch
 
