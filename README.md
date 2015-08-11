@@ -8,6 +8,13 @@ For more information on each CLI package, please view said package's README by c
 
 ## Included Packages
 
+* [`Checkout`](#checkout) (both local and remote)
+* [`Commit`](#commit)
+* [`Push`](#push)
+* [`Merge`](#merge)
+* [`Revert`](#revert)
+* [`Branch`](#branch) (includes deletion of branches)
+
 ### [Checkout](/node_modules/checkout-cli/README.md)
 
 A command line tool that allows you to checkout to your other branches
@@ -40,13 +47,26 @@ A command line tool that allows you to merge from a selected branch into your cu
 
     > merge
 
-### [Revert](/nnode_modules/revert-cli/README.md)
+### [Revert](/node_modules/revert-cli/README.md)
 
 A command line tool that allows you to revert/uncommit changes you've made to files back to your last commit
 
     > revert
 
+### [Branch](/node_modules/branch-cli/README.md)
+
+A CLI tool that allows you to manipulate local git repository branch
+
+    > branch
+
+To **delete** a branch, run
+
+    > branch delete
+
 ## Versions
+**1.3.0**
+* branch
+
 **1.2.0**
 * revert
 
