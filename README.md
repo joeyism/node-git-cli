@@ -55,7 +55,7 @@ A command line tool that allows you to revert/uncommit changes you've made to fi
 
 ### [Branch](https://github.com/joeyism/node-branch-cli/)
 
-A CLI tool that allows you to manipulate local git repository branch
+A CLI tool that allows you to manipulate local git repository branch, or gain information. To get current git branch, files modified, and files added but uncommitted, run
 
     > branch
 
@@ -64,6 +64,9 @@ To **delete** a branch, run
     > branch delete
 
 ## Versions
+**1.4.0**
+* branch has new feature
+
 **1.3.0**
 * branch
 
